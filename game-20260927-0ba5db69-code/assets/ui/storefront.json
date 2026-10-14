@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-29T17:51:54Z",
+  "tagline": "Command your squad, board the dropship, and infiltrate hostile sectors in this sci-fi tactical shooter.",
+  "description": "**STAR-Tech: Galaxy Infiltrators** opens in Hangar Bay 2, where an armored green dropship waits with its ramp lowered and a starfield glows through the hangar windows. Armored troopers stand ready beside the menu as the tagline sets the tone: *Command. Infiltrate. Neutralize.*\n\nFrom the main menu you can jump straight into play, pick a mission, visit the Enforcement Barracks, or browse the Robot Database to learn about the machines you will face. A squad panel tracks your Squad Points, current hero (Hale), and difficulty setting, while an Information Updates feed reports that your squad is ready for deployment and a new sector, an Abandoned Freighter, is available.\n\nThis build refreshes the game's audio to better match its sci-fi military feel, covering menu music, click and select sounds, shooting effects, and more.",
+  "theme": {
+    "color_theme": "midnight",
+    "font_family": "modern",
+    "border_radius": "none"
+  },
+  "category_slug": "shooter",
+  "tag_slugs": [
+    "sci-fi",
+    "tactical",
+    "squad",
+    "space",
+    "3d"
+  ]
+}

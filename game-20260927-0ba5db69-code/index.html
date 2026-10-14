@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#07090c" />
+    <title>STAR-Tech: Galaxy Infiltrators</title>
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #07090c; overflow: hidden; }
+      #game { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      #game canvas { display: block; width: 100%; height: 100%; }
+      #game .tactical canvas { width: auto; height: auto; }
+      #game canvas.radar { width: 200px; height: 200px; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script data-tesana-bootstrap type="application/json" id="tesana-bootstrap-data">{"gameId": "460ecb91-9814-408b-a308-15ea94a5d83e", "endpoint": "https://d3cbjx3gy93tul.cloudfront.net"}</script>
+    <script data-tesana-bootstrap>
+      // Set the bootstrap BEFORE the SDK loads: its init() reads this
+      // synchronously. Reversing these two tags silently forces the SDK
+      // into its offline path.
+      (function () {
+        try {
+          var d = document.getElementById('tesana-bootstrap-data');
+          var cfg = d ? JSON.parse(d.textContent || '{}') : {};
+          window.__TESANA__ = Object.assign({}, window.__TESANA__ || {}, cfg);
+        } catch (e) { /* malformed bootstrap: the SDK's own offline path takes over */ }
+      })();
+    </script>
+    <script data-tesana-bootstrap src="https://unpkg.com/@tesana/sdk@1.1.0/dist/tesana.iife.js"></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

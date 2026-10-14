@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-28T20:41:26Z",
+  "tagline": "Command your squad from Hangar Bay 2 and board dropship DS-07 for the abandoned freighter.",
+  "description": "**STAR-Tech: Galaxy Infiltrators** opens in Hangar Bay 2, where dropship DS-07 waits with its ramp lowered and a squad of armored, rifle-carrying soldiers stands ready beside it. Beyond the hangar windows, open space and distant planets set the stage for what comes next.\n\nThe main menu reads *Command. Infiltrate. Neutralize.* From there you can jump straight into **Play**, choose from **Mission Select**, visit the **Enforcement Barracks**, or browse the **Robot Database**. Options, Credits, and Quit Game round out the menu.\n\nA status panel tracks your **Squad Points**, your hero (**Hale**), and your difficulty setting, starting at **Recruit**. The Information Updates feed confirms systems are online, the squad is ready for deployment, and a new sector has opened: the **Abandoned Freighter**.",
+  "theme": {
+    "color_theme": "midnight",
+    "font_family": "modern",
+    "border_radius": "medium"
+  },
+  "category_slug": "shooter",
+  "tag_slugs": [
+    "sci-fi",
+    "squad",
+    "military",
+    "space",
+    "robots",
+    "3d"
+  ]
+}
